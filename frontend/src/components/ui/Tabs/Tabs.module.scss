@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  >div {
+    border-radius: 4px;
+    padding: 4px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .active {
+    color: #ffffff;
+    background-color: #DE7898;
+  }
+}

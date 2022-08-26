@@ -1,0 +1,14 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+  &:last-child {
+    margin-top: 25px;
+  }
+
+  >h6 {
+    color: #DE7898;
+    font-weight: bold;
+  }
+}
